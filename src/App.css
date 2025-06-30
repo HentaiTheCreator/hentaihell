@@ -1,0 +1,97 @@
+#root {
+  width: 100%;
+  height:auto;
+  margin: 0 auto;
+  
+  background-color: #101010;
+  text-align: center;
+}
+
+.Page {
+  width: 100%;
+  height: auto;
+  background:fixed;
+  background-color: #771177;
+}
+
+.Page-container {
+  width: 100%;
+  height: fit-content;
+  
+}
+
+.Title-image {
+  width: 50rem;
+}
+
+.Head {
+
+  height: 15rem;
+  align-content: center;
+  
+}
+
+.HeadName {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border-bottom: #FFF, solid;
+  
+  margin: 0;
+  
+}
+
+.HeadImage {
+  height: 15rem;
+}
+
+.MainSection {
+  height: auto;
+}
+
+.HSSection {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  height: auto;
+}
+
+.MainSection h2{
+  
+  background-color: #d4702e;
+  display: flex;
+  padding-left: 5rem;
+}
+
+.Element-Link {
+  height:fit-content;
+  width:fit-content;
+}
+
+.PosterContainer{
+
+  width: 15vw;
+  height: auto;
+}
+
+.PosterBox{
+  width: 15vw;
+  height:40vh;
+  
+}
+.PosterImage{
+  width: 15vw;
+  height:40vh;
+  object-fit:cover;
+  overflow: hidden;
+}
+
+.PosterImage :hover{
+  transform: scale(1.1);
+  object-fit: contain;
+}
+.PosterBox :hover{
+  transform: scale(1.1);
+}
+
+.PosterSetGrid{
+  justify-content: center;
+}
